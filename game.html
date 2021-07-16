@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Dice Game | Two Player</title>
+</head>
+<body>
+    <div class="container--flex wrapper__game wrapper">
+        <section class="section__top container--flex">
+
+        </section>
+        <section class="section__middle container--flex">
+            <div class="container--flex container__dice--medium">
+                <div class="container--flex container__dieImg--one">
+                    <img src="images/dieOne.svg" alt="" id="img-die-one">
+                </div>
+                <div class="container--flex container__dieImg--two">
+                    <img src="images/dieOne.svg" alt="" id="img-die-two">
+                </div>
+            </div>
+            <div class="container--flex container__scores--medium">
+                <h2>Player One</h2>
+                <div class="container--flex container__scores--one">
+                    <div class="container--flex container__score--small container--roll">
+                        <p class="para--roll" id="para-roll-one">0</p>
+                        <p class="para--desc">Die Roll</p>
+                    </div>
+                    <div class="container--flex container__score--small container--tally">
+                        <p class="para--tally" id="para-tally-one">0</p>
+                        <p class="para--desc">Tally</p>
+                    </div>
+                    <div class="container--flex container__score--small container--score">
+                        <p class="para--score-one" id="para-score-one">0</p>
+                        <p class="para--desc">Die Score</p>
+                    </div>
+                </div>
+                <div class="container--flex container__scores--two">
+                    <h2>Player Two</h2>
+                    <div class="container--flex container__score--small container--roll">
+                        <p class="para--roll" id="para-roll-two">0</p>
+                        <p class="para--desc">Die Roll</p>
+                    </div>
+                    <div class="container--flex container__score--small container--tally">
+                        <p class="para--tally" id="para-tally-two">0</p>
+                        <p class="para--desc">Tally</p>
+                    </div>
+                    <div class="container--flex container__score--small container--score">
+                        <p class="para--score--two" id="para-score-two">0</p>
+                        <p class="para--desc">Die Score</p>
+                    </div>
+                </div>
+                <div class="container--flex container__text--medium">
+                    <p class="para__text" id="para-text">Player one starts. To play, click Player One Roll.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section__bottom container--flex">
+            <button class="btn__bottom--medium" id="btn-roll-one">Roll</button>
+            <button class="btn__bottom--medium" id="btn-reset">Reset</button>
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
